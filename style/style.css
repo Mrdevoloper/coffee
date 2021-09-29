@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.wrapper-list {
+    display: flex;
+    padding-right: 50px;
+}
+.coffein {
+    margin-left: 80px;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 10px 20px;
+
+}
+.list-item:hover{
+    list-style-type: none;
+    padding: 10px 30px;
+    transition: all 1s ease-in-out;
+    background-color: #0E8784;
+    border-radius: 6px;
+}
+.list-link {
+    text-decoration: none;
+    color: #83888F;
+    font-weight: 600;
+    transition: all 0.3s ease;
+
+       
+}
+.list-link:hover {
+    text-decoration: none;
+    color:  black;
+    font-weight: 600;
+    
+   
+}
+.list-link:active {
+    text-decoration: none;
+    color: #171817;
+    font-weight: 600;
+    box-shadow: 0px 2px 3px 2px rgba(0, 1, 9, 1);
+    background-color:#fff;
+    border-radius: 20px;
+   
+}
+.bitmap {
+    position: relative;
+    background-image: url(../img/Bitmap.png);
+    width: 1280px;
+    height: 600px;
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.collaction-pic {
+    background-image: url(../img/Group\ 13\ \(1\).png);
+    position: relative;
+    width: 1111px;
+    height: 194px;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.great-coffee {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+
+.header-text {
+    position: absolute;
+    width: 445px;
+    height: 78px;
+    top: 50%;
+    left: 8%;
+    color: #fff;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 200;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn1 {
+    position: absolute;
+    width: 217px;
+    height: 57px;
+    top: 70%;
+    left: 8%;
+    border-radius: 5px;
+    background: #0E8784;
+    color: #fff;
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.btn1:hover {
+    background: #66D2CF;
+}
+.btn1:active {
+    background: #E2DEDB;
+
+}
+
+.wrapper-products {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: -5%;
+}
+
+.product-list {
+    list-style-type: none;
+
+}
+.product-list:hover {
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px 0px rgba(0, 1, 1, 1);
+    transform: scale(1.1);
+
+}
+.product-text {
+    width: 255px;
+    height: 78px;
+    text-align: center;
+}
+    
+.product-title{
+    padding-left: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.product-list {
+    margin: 15px;
+}
+
+
+.middle-main {
+    position: relative;
+    width: 1280px;
+    height: 730px;
+    background-color: rgb(33, 29, 54);
+    margin-top: 500px;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+
+.title-middle-main {
+    text-align: center;
+    justify-content: center;
+    padding-top: 140px;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.text-middle-main {
+    position:absolute;
+    text-align: center;
+    color: rgb(165, 164, 164);
+    width: 540px;
+    height: 80px;
+    font-size: 17px;
+    line-height: 25px;
+    left: 28%;
+}
+
+.middle-list {
+    list-style-type: none;
+    width: 350px;
+    height: 389px;
+    background-color: #0E8784;
+    margin-left: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.middle-list:hover {
+    transform: scale(0.9);
+}
+.wrapper-middle{
+    position: relative;
+    display: flex;
+    bottom: 230px;
+    left: 85px;
+  
+}
+
+.shape1 {
+    margin-top: 50px;
+}
+.shape12 {
+    margin-top: 65px;
+}
+.qualities {
+    color: #fff;
+    padding-top: 40px;
+}
+
+.text-shape {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+   
+}
